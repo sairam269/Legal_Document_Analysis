@@ -1,6 +1,6 @@
 MASTER SERVICE AGREEMENT
 
-This Master Service Agreement (“Agreement”) is entered into as of this ___ day of ________, 2025 (the “Effective Date”) by and between:
+This Master Service Agreement (“Agreement”) is entered into as of this 23rd day of August, 2025 (the “Effective Date”) by and between:
 
 ABC Corporation, a corporation organized under the laws of Delaware, with its principal place of business at 123 Main Street, Wilmington, DE 19801 (“Company”), and XYZ Consulting LLC, a limited liability company organized under the laws of New York, with its principal place of business at 456 Park Avenue, New York, NY 10022 (“Consultant”).
 
@@ -34,7 +34,7 @@ NOW, THEREFORE, in consideration of the mutual covenants and promises herein con
 
 3. TERM AND TERMINATION
 
-3.1 Term. This Agreement shall commence on the Effective Date and continue for a period of three (3) years unless terminated earlier pursuant to this Section 3.
+3.1 Term. This Agreement shall commence on the Effective Date and continue for a period of three (3) years, expiring on August 23, 2028, unless terminated earlier pursuant to this Section 3.
 
 3.2 Termination for Convenience. Either Party may terminate this Agreement or any SOW upon thirty (30) days’ prior written notice.
 
@@ -118,11 +118,66 @@ IN WITNESS WHEREOF, the Parties have executed this Master Service Agreement as o
 ABC Corporation
 
 By: ____________________________
-Name: __________________________
-Title: __________________________
+Name: John Smith
+Title: Chief Executive Officer
 
 XYZ Consulting LLC
 
 By: ____________________________
-Name: __________________________
-Title: __________________________
+Name: Jane Doe
+Title: Managing Partner
+
+SAMPLE STATEMENT OF WORK (SOW)
+
+SOW Title: Digital Transformation Consulting Services
+SOW Effective Date: August 23, 2025
+Parties: ABC Corporation and XYZ Consulting LLC
+
+1. Scope of Services
+Consultant will provide the following services:
+
+Assessment of current IT infrastructure
+
+Recommendations for cloud migration and process automation
+
+Implementation support and project management
+
+2. Deliverables
+
+Assessment Report (within 30 days)
+
+Cloud Migration Plan (within 60 days)
+
+Weekly status reports
+
+3. Timeline
+
+Project Start: September 1, 2025
+
+Project End: February 28, 2026
+
+4. Fees and Payment
+
+Total Fee: $150,000
+
+Payment Schedule: 50% upfront, 25% upon delivery of Assessment Report, 25% upon completion of Cloud Migration Plan
+
+5. Expenses
+
+Pre-approved travel and software costs reimbursed by Company
+
+6. Acceptance Criteria
+
+Deliverables accepted upon written approval by Company
+
+7. Signatures
+
+ABC Corporation
+By: ____________________________
+Name: John Smith
+Title: Chief Executive Officer
+
+XYZ Consulting LLC
+By: ____________________________
+Name: Jane Doe
+Title: Managing Partner

@@ -8,6 +8,9 @@ load_dotenv()
 api_key = os.getenv("ANTHROPIC_API_KEY")
 if not api_key:
     raise ValueError("Missing ANTHROPIC_API_KEY in .env")
+doc_name = os.getenv("LEGAL_DOCUMENT_NAME")
+if not api_key:
+    raise ValueError("Missing LEGAL_DOCUMENT_NAME in .env")
 
 client = anthropic.Anthropic(api_key=api_key)
 MCP_SERVER = "http://127.0.0.1:9000"
@@ -15,7 +18,7 @@ MCP_SERVER = "http://127.0.0.1:9000"
 # Unique session ID per chatbot run
 SESSION_ID = str(uuid.uuid4())
 
-with open("sample_doc.txt", "r", encoding="utf-8") as f:
+with open(doc_name+".txt", "r", encoding="utf-8") as f:
     DOCUMENT = f.read()
 
 def call_mcp_tool(endpoint: str, payload: dict):
@@ -36,6 +39,8 @@ Choose the best tool:
 - "qa" to answer a question about the remembered document
 - "simplify" to rewrite the remembered document in plain language
 - "analyze_complications" to analyze the original document for risks, contradictions, ambiguities, and misleading clauses
+- "validate_document" to check if the document is a valid legal/contract document
+- "extract_key_dates" to extract all important contractual dates (start, expiration, renewal, recurring events)
 
 Respond in strict JSON: {{"tool": "...", "reason": "..."}}
 """
@@ -46,11 +51,11 @@ Respond in strict JSON: {{"tool": "...", "reason": "..."}}
         messages=[{"role": "user", "content": prompt}],
         tools=[{
             "name": "choose_tool",
-            "description": "Select which MCP tool to call (qa, simplify, analyze_complications)",
+            "description": "Select which MCP tool to call (qa, simplify, analyze_complications, validate_document, extract_key_dates)",
             "input_schema": {
                 "type": "object",
                 "properties": {
-                    "tool": {"type": "string", "enum": ["qa", "simplify", "analyze_complications"]},
+                    "tool": {"type": "string", "enum": ["qa", "simplify", "analyze_complications", "validate_document", "extract_key_dates"]},
                     "reason": {"type": "string"}
                 },
                 "required": ["tool", "reason"]
@@ -85,6 +90,16 @@ Respond in strict JSON: {{"tool": "...", "reason": "..."}}
         return call_mcp_tool("analyze_complications", {
             "session_id": SESSION_ID
         })["analysis"]
+
+    elif tool == "validate_document":
+        return call_mcp_tool("validate_document", {
+            "session_id": SESSION_ID
+        })["validation"]
+
+    elif tool == "extract_key_dates":
+        return call_mcp_tool("extract_key_dates", {
+            "session_id": SESSION_ID
+        })["key_dates"]
 
     else:
         return f"Unrecognized tool: {tool}"

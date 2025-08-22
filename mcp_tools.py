@@ -3,9 +3,13 @@ from pydantic import BaseModel
 import os
 import anthropic
 from dotenv import load_dotenv
+from pydantic import BaseModel
 
 app = FastAPI()
 load_dotenv()
+
+class ValidateRequest(BaseModel):
+    session_id: str
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
 if not api_key:
@@ -127,6 +131,83 @@ Rules:
     )
 
     return {"analysis": response.content[0].text.strip()}
+
+@app.post("/validate_document")
+def validate_document(req: ValidateRequest):
+    """
+    Validate whether the remembered document is a legal or contract document.
+    Returns JSON:
+    {
+        "is_legal_document": bool,
+        "reason": str  # if not legal, why
+    }
+    """
+    if req.session_id not in SESSIONS:
+        raise ValueError(f"Session {req.session_id} not initialized with a document")
+
+    document = SESSIONS[req.session_id]["document"]
+
+    prompt = f"""
+You are a legal document classifier.
+ONLY analyze the text below. Do NOT hallucinate.
+
+Document:
+{document}
+
+Task:
+Return JSON ONLY with these fields:
+{{
+  "is_legal_document": bool,  # True if this is a legal/contract document, False otherwise
+  "reason": str               # if False, explain why it is not a legal/contract document
+}}
+"""
+
+    response_text = ask_claude(req.session_id, prompt)
+    return {"validation": response_text}
+
+class ExtractDatesRequest(BaseModel):
+    session_id: str
+
+@app.post("/extract_key_dates")
+def extract_key_dates(req: ExtractDatesRequest):
+    """
+    Extract all important contractual dates (start, expiration, renewal, completion, recurring events).
+    Return JSON with event name, recurrence, and date/day.
+    """
+    if req.session_id not in SESSIONS:
+        raise ValueError(f"Session {req.session_id} not initialized with a document")
+
+    document = SESSIONS[req.session_id]["document"]
+
+    prompt = f"""
+You are a legal contract date extractor.
+Analyze the following document and identify all important contractual dates:
+- Contract start date
+- Contract expiration
+- Renewal dates
+- Completion milestones
+- Warning or notice periods
+- Recurring obligations (monthly, yearly, weekly)
+
+Return JSON ONLY with this schema:
+{{
+  "key_dates": [
+    {{
+      "event_name": str,         # e.g., "Contract Start", "Renewal", "Payment Due"
+      "recurrence": str|null,    # "monthly", "yearly", "weekly", or null if one-time
+      "date_or_day": str         # exact date "YYYY-MM-DD" for one-time, or day name if weekly
+    }}
+  ]
+}}
+
+Rules:
+- Include ALL important dates mentioned in the document.
+- Do not hallucinate dates.
+- Respond ONLY in valid JSON.
+"""
+
+    response_text = ask_claude(req.session_id, prompt, max_tokens=2000)
+    return {"key_dates": response_text}
 
 @app.post("/reset_session/{session_id}")
 def reset_session(session_id: str):

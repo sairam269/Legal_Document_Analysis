@@ -1,0 +1,96 @@
+VEHICLE TRANSFER AGREEMENT
+
+This Vehicle Transfer Agreement (“Agreement”) is made and entered into as of August 23, 2025 (the “Effective Date”) by and between:
+
+Seller: Jonathan R. Miller, residing at 789 Elm Street, Los Angeles, CA 90001 (“Seller”)
+Buyer: Clara T. Reynolds, residing at 456 Oak Avenue, San Francisco, CA 94102 (“Buyer”)
+
+Seller and Buyer may individually be referred to as a “Party” and collectively as the “Parties.”
+
+RECITALS
+
+WHEREAS, Seller desires to transfer and Buyer desires to acquire ownership of certain motor vehicle assets under the terms and conditions hereinafter set forth;
+
+WHEREAS, the Parties desire that this Agreement constitutes the entire understanding of the Parties with respect to such transfer;
+
+NOW, THEREFORE, in consideration of the mutual covenants, promises, and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:
+
+1. DEFINITIONS
+
+1.1 “Vehicle” shall mean the motor vehicle described as a 2020 Tesla Model 3, VIN: 5YJ3E1EA7LF000123, including all associated accessories, components, and appurtenances.
+
+1.2 “Transfer Date” shall mean the date on which possession of the Vehicle is delivered by Seller to Buyer, which shall be no later than 15 days following the Effective Date, unless otherwise mutually agreed in writing.
+
+1.3 “Purchase Price” shall mean the sum of $45,000, payable pursuant to Section 4 herein.
+
+2. TRANSFER OF OWNERSHIP
+
+2.1 Assignment and Delivery. Seller shall assign, and Buyer shall accept, all right, title, and interest in and to the Vehicle, together with all manufacturer warranties, registration, and insurance documents, if any exist.
+
+2.2 Condition of Vehicle. Buyer acknowledges that the Vehicle is being transferred “as-is,” without any warranties, expressed or implied, including but not limited to fitness for a particular purpose, merchantability, or non-infringement, except as may be provided under federal or state law.
+
+2.3 Possession vs. Title. Possession of the Vehicle may precede formal transfer of title and registration documentation, and Buyer shall assume all risk of loss upon taking possession, notwithstanding any delay in title transfer.
+
+3. REPRESENTATIONS AND WARRANTIES
+
+3.1 Seller Representations. Seller represents and warrants that:
+(a) Seller is the legal and beneficial owner of the Vehicle;
+(b) to the best of Seller’s knowledge, the Vehicle has not been subject to any lien or encumbrance.
+
+3.2 Buyer Representations. Buyer represents that she has conducted her own inspections and due diligence and relies solely upon such inspections in entering into this Agreement.
+
+4. PURCHASE PRICE AND PAYMENT
+
+4.1 Payment. Buyer shall pay Seller the Purchase Price as follows: 50% upon execution of this Agreement and 50% within 30 days following delivery of the Vehicle.
+
+4.2 Method of Payment. Payment may be made in certified funds, wire transfer, or any other method mutually agreeable to the Parties.
+
+5. TAXES, FEES, AND LIABILITIES
+
+5.1 Buyer shall be responsible for all sales, use, registration, or transfer taxes arising from this transaction.
+
+5.2 Seller shall remain responsible for any traffic violations, toll charges, or similar liabilities incurred before the Transfer Date; provided, however, that Buyer shall indemnify Seller for any damages resulting from Buyer’s use prior to formal registration.
+
+6. RISK OF LOSS
+
+Upon taking possession of the Vehicle, Buyer assumes all risk of loss or damage, whether due to theft, accident, or natural disaster, even if formal title has not yet transferred.
+
+7. GOVERNING LAW AND DISPUTE RESOLUTION
+
+7.1 This Agreement shall be governed by the laws of the State of California, without regard to conflict of law principles.
+
+7.2 Any disputes arising under this Agreement shall first be submitted to non-binding mediation in Los Angeles, CA. If unresolved within 30 days, the dispute shall be subject to arbitration administered by the American Arbitration Association in accordance with its Commercial Arbitration Rules.
+
+8. MISCELLANEOUS
+
+8.1 Entire Agreement. This Agreement constitutes the entire understanding between the Parties and supersedes all prior agreements, oral or written.
+
+8.2 Amendments. Any amendments must be in writing and signed by both Parties.
+
+8.3 Severability. If any provision of this Agreement is found unenforceable, the remainder shall remain in full force and effect.
+
+8.4 Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+9. SIGNATURES
+
+SELLER:
+By: ____________________________
+Name: Jonathan R. Miller
+Date: August 23, 2025
+
+BUYER:
+By: ____________________________
+Name: Clara T. Reynolds
+Date: August 23, 2025
+
+Subtle Legal Loopholes / Ambiguities (5):
+
+Section 2.3 (“Possession vs. Title”) – Buyer assumes all risk upon taking possession, but there’s no clear timeline for actual title transfer. Could lead to disputes over ownership if Vehicle is damaged or lost before title is officially recorded.
+
+Section 3.1(b) (“to the best of Seller’s knowledge…no liens”) – “to the best of knowledge” leaves room for undisclosed liens, creating ambiguity over true lien status.
+
+Section 4.1 (“50% within 30 days following delivery”) – Does not define what happens if Buyer fails to pay the second installment; Seller has no immediate remedy outlined.
+
+Section 5.2 (“Buyer shall indemnify Seller for any damages resulting from Buyer’s use prior to formal registration”) – Contradicts the usual allocation of risk; could be interpreted to make Buyer liable for Seller’s pre-possession obligations.
+
+Section 2.2 (“Vehicle transferred as-is, without warranties except as may be provided under federal or state law”) – This could be interpreted inconsistently; some state laws impose minimum implied warranties regardless of “as-is” disclaimers.
