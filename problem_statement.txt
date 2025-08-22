@@ -1,0 +1,23 @@
+Legal Document Analysis Tool
+
+Description: A tool that processes legal documents and extracts key clauses, terms, and conditions. It can provide high-level summaries or answer questions based on the content of the document.
+
+Example Features:
+Extract specific clauses (e.g., payment terms, confidentiality).
+Summarize legal language for easier understanding.
+Answer questions like "What are the terms for cancellation?" or "What is the length of the contract?"
+
+tech stack :
+
+mcp server using Cequence ai gateway
+agent clients : custom mcp client using python coode that uses claude
+language : python framework : flask
+
+
+3 realistic problems:
+
+Compare Clauses Across Multiple Contracts (multi-doc analysis).
+
+Automatic Risk Flagging (AI + simple keyword detection).
+
+Obligation Extraction & Tracking (structured data + reminders).

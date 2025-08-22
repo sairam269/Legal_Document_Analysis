@@ -1,0 +1,128 @@
+MASTER SERVICE AGREEMENT
+
+This Master Service Agreement (“Agreement”) is entered into as of this ___ day of ________, 2025 (the “Effective Date”) by and between:
+
+ABC Corporation, a corporation organized under the laws of Delaware, with its principal place of business at 123 Main Street, Wilmington, DE 19801 (“Company”), and XYZ Consulting LLC, a limited liability company organized under the laws of New York, with its principal place of business at 456 Park Avenue, New York, NY 10022 (“Consultant”).
+
+Company and Consultant are sometimes individually referred to as a “Party” and collectively as the “Parties.”
+
+RECITALS
+
+WHEREAS, Company desires to engage Consultant to provide certain services, as described in one or more statements of work (“SOWs”), and Consultant desires to provide such services under the terms and conditions of this Agreement;
+
+WHEREAS, the Parties intend that this Agreement shall govern all services rendered by Consultant to Company unless otherwise agreed in writing;
+
+NOW, THEREFORE, in consideration of the mutual covenants and promises herein contained, the Parties agree as follows:
+
+1. DEFINITIONS
+
+1.1 “Services” means all tasks, duties, and obligations performed or to be performed by Consultant pursuant to any SOW.
+
+1.2 “Deliverables” means any work product, documents, reports, software, or other outputs created by Consultant in connection with the Services.
+
+1.3 “Confidential Information” means all non-public information disclosed by a Party to the other Party, including trade secrets, business plans, financial data, and technical information.
+
+1.4 “SOW” means a written statement of work executed by both Parties specifying the scope, timeline, deliverables, and fees for particular Services.
+
+2. SCOPE OF SERVICES
+
+2.1 Engagement. Consultant agrees to perform the Services described in each SOW executed under this Agreement.
+
+2.2 Changes to Scope. Any changes to the scope of Services must be documented in a written amendment to the applicable SOW, signed by both Parties.
+
+2.3 Standard of Care. Consultant shall perform the Services in a professional, diligent, and workmanlike manner consistent with industry standards.
+
+3. TERM AND TERMINATION
+
+3.1 Term. This Agreement shall commence on the Effective Date and continue for a period of three (3) years unless terminated earlier pursuant to this Section 3.
+
+3.2 Termination for Convenience. Either Party may terminate this Agreement or any SOW upon thirty (30) days’ prior written notice.
+
+3.3 Termination for Cause. Either Party may terminate this Agreement or any SOW immediately if the other Party materially breaches this Agreement and fails to cure such breach within fifteen (15) days of written notice.
+
+3.4 Effect of Termination. Upon termination, Consultant shall deliver all completed Deliverables and return all Confidential Information.
+
+4. COMPENSATION AND PAYMENT
+
+4.1 Fees. Company shall pay Consultant the fees set forth in each SOW. All fees are exclusive of taxes.
+
+4.2 Invoices. Consultant shall submit invoices monthly, and Company shall pay undisputed amounts within thirty (30) days of receipt.
+
+4.3 Expenses. Company shall reimburse Consultant for pre-approved, reasonable expenses incurred in connection with the Services.
+
+5. INTELLECTUAL PROPERTY
+
+5.1 Ownership of Deliverables. Unless otherwise agreed in a SOW, all Deliverables shall be the sole and exclusive property of Company.
+
+5.2 License to Background IP. Consultant grants Company a perpetual, worldwide, royalty-free license to use any pre-existing intellectual property incorporated into the Deliverables solely to the extent necessary to use the Deliverables.
+
+5.3 Moral Rights. Consultant waives any moral rights in the Deliverables to the extent permitted by applicable law.
+
+6. CONFIDENTIALITY
+
+6.1 Obligations. Each Party agrees to maintain the confidentiality of Confidential Information and not disclose it except to employees or subcontractors who need access for the purposes of this Agreement.
+
+6.2 Exceptions. Confidential Information does not include information that:
+(a) was publicly available at the time of disclosure;
+(b) is independently developed without reference to the other Party’s Confidential Information;
+(c) is lawfully obtained from a third party without restriction.
+
+6.3 Return or Destruction. Upon termination, each Party shall return or destroy the other Party’s Confidential Information, subject to legal or regulatory retention requirements.
+
+7. REPRESENTATIONS AND WARRANTIES
+
+7.1 Consultant Warranties. Consultant represents and warrants that:
+(a) the Services will be performed in accordance with this Agreement and applicable law;
+(b) the Deliverables will not infringe any third-party intellectual property rights.
+
+7.2 Company Warranties. Company represents and warrants that it has the authority to engage Consultant and provide necessary access to facilities, information, and resources.
+
+8. INDEMNIFICATION
+
+8.1 By Consultant. Consultant shall indemnify, defend, and hold harmless Company from any claims, damages, or liabilities arising from Consultant’s gross negligence, willful misconduct, or infringement of third-party rights.
+
+8.2 By Company. Company shall indemnify, defend, and hold harmless Consultant from claims arising from Company’s misuse of the Deliverables or violation of law.
+
+9. LIMITATION OF LIABILITY
+
+9.1 Exclusion of Consequential Damages. Neither Party shall be liable for indirect, incidental, special, or consequential damages, including lost profits.
+
+9.2 Aggregate Liability. The total liability of either Party shall not exceed the total fees paid under the applicable SOW during the twelve (12) months preceding the claim.
+
+10. INSURANCE
+
+Consultant shall maintain professional liability insurance with coverage not less than $1,000,000 per occurrence and provide evidence of insurance upon request.
+
+11. DISPUTE RESOLUTION
+
+11.1 Negotiation. The Parties shall attempt in good faith to resolve any dispute through negotiation.
+
+11.2 Arbitration. If unresolved within thirty (30) days, the dispute shall be submitted to binding arbitration in New York, NY, under the rules of the American Arbitration Association.
+
+11.3 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict of laws principles.
+
+12. MISCELLANEOUS
+
+12.1 Force Majeure. Neither Party shall be liable for delays or failures caused by events beyond reasonable control.
+
+12.2 Assignment. Neither Party may assign its rights or obligations without prior written consent, except to a successor in interest.
+
+12.3 Entire Agreement. This Agreement, together with all SOWs, constitutes the entire agreement and supersedes all prior negotiations and understandings.
+
+12.4 Amendments. Any amendments must be in writing and signed by both Parties.
+
+12.5 Severability. If any provision is held invalid, the remainder shall remain in full force and effect.
+
+IN WITNESS WHEREOF, the Parties have executed this Master Service Agreement as of the Effective Date.
+
+ABC Corporation
+
+By: ____________________________
+Name: __________________________
+Title: __________________________
+
+XYZ Consulting LLC
+
+By: ____________________________
+Name: __________________________
+Title: __________________________

@@ -1,0 +1,10 @@
+flask
+requests
+python-dotenv
+mcp
+aiohttp
+uvicorn
+fastapi
+anthropic
+transformers
+torch
