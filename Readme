@@ -1,0 +1,124 @@
+---
+
+# Legal Document Analysis Tool
+
+The **Legal Document Analysis Tool** is a Python-based application designed to help legal teams, businesses, and individuals quickly analyze contracts and other legal documents. It automatically extracts key clauses, generates summaries, and answers questions based on the content, enabling faster and more accurate legal review.
+
+---
+
+## Key Features
+
+* **Clause Extraction:** Automatically identify clauses such as payment terms, confidentiality, termination, and more.
+* **Summarization:** Convert complex legal language into concise, easy-to-understand summaries.
+* **Question Answering:** Ask questions about the document and get direct answers, e.g.:
+
+  * “What are the terms for cancellation?”
+  * “What is the length of the contract?”
+* **Compare Clauses Across Documents:** Identify differences and inconsistencies across multiple contracts.
+* **Automatic Risk Flagging:** Detect potential risks using AI and keyword analysis.
+* **Obligation Extraction & Tracking:** Extract obligations, deadlines, and reminders automatically.
+
+---
+
+## Tech Stack
+
+* **Server:** MCP server using Cequence AI Gateway
+* **Client:** Custom MCP client implemented in Python using Claude
+* **Language:** Python 3.x
+* **Framework:** Flask for backend, FastAPI for API endpoints
+
+---
+
+## Prerequisites
+
+Ensure the following are installed before running the tool:
+
+* Python 3.x
+* pip (Python package manager)
+
+---
+
+## Installation & Running
+
+### Linux
+
+1. Open a terminal in the project directory.
+
+2. Make the startup script executable:
+
+   ```bash
+   chmod +x start.sh
+   ```
+
+3. Run the script:
+
+   ```bash
+   ./start.sh
+   ```
+
+This will:
+
+* Verify Python and pip installation
+* Install dependencies from `requirements.txt`
+* Start `chatbot.py`
+* Launch the FastAPI app on port `9000`
+
+---
+
+### Windows
+
+1. Open Command Prompt in the project directory.
+2. Run the batch file:
+
+   ```bat
+   start.bat
+   ```
+
+This will:
+
+* Check Python and pip
+* Install dependencies from `requirements.txt`
+* Start `chatbot.py` and FastAPI app on port `9000` in separate windows
+
+---
+
+## Usage
+
+* **Chatbot:** Interact with the chatbot through the console for document analysis.
+* **API Server:** Access FastAPI endpoints at `http://localhost:9000` to query documents, extract clauses, or get summaries.
+
+---
+
+## Folder Structure
+
+```
+legal-doc-analysis/
+├── start.sh             # Linux startup script
+├── start.bat            # Windows startup script
+├── chatbot.py           # Chatbot logic
+├── app/                 # FastAPI server files
+├── requirements.txt     # Python dependencies
+├── documents/           # Folder for input legal documents
+└── README.md            # Project documentation
+```
+
+---
+
+## Notes
+
+* Place all legal documents to be analyzed in the designated `documents/` folder or provide them via the API.
+* The tool is designed to handle multiple document analyses concurrently for scalability.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+---
+
+## License
+
+None
+
+---
